@@ -17,7 +17,7 @@ However, if you run a chatbot outside of Emacs, you will probably handle the dow
 Because you are already outside of the Emacs, you could use a little Bash.
 
 This bash function takes the single argument of the markdown file's filestem.
-To incorporate this new note into the org-roam database, you must run the command org-id-get-create to add a unique identifier to this file.
+To incorporate this new note into the org-roam database, you must run the command `M-x org-id-get-create` to add a unique identifier to this file.
 
 ```bash
 m2o () {
